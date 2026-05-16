@@ -91,4 +91,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+
+    <repository>
+        <id>nexus</id>
+        <url>http://3.89.141.145:8081/repository/satya_release/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>nexus</id>
+        <url>http://3.89.141.145:8081/repository/satya_snapshot/</url>
+    </snapshotRepository>
+
+</distributionManagement>
 </project>
