@@ -18,7 +18,7 @@ ENV PROJECT_HOME=/opt/app
 
 WORKDIR $PROJECT_HOME
 
-COPY --from=build /app/target/spring-boot-mongo-1.0.jar $PROJECT_HOME/spring-boot-mongo.jar
+COPY --from=build /app/target/*.jar $PROJECT_HOME/spring-boot-mongo.jar
 
 EXPOSE 8080
 
