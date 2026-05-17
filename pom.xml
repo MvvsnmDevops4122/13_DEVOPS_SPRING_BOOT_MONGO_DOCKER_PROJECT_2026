@@ -95,12 +95,12 @@
 
     <repository>
         <id>nexus</id>
-        <url>http://3.89.141.145:8081/repository/satya_release/</url>
+        <url>http://44.219.110.204:8081/repository/maven-releases/</url>
     </repository>
 
     <snapshotRepository>
         <id>nexus</id>
-        <url>http://3.89.141.145:8081/repository/satya_snapshot/</url>
+        <url>http://44.219.110.204:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 
 </distributionManagement>
